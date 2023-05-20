@@ -1,0 +1,20 @@
+Clonar un repositorio existente
+	$ git clone ssh://usuario@domain.com/repo.git
+Crear un nuevo repositorio local
+	$ git init
+Comprobar estado de la rama actual
+	$ git status
+Agregar todos los archivos para commitear
+	$ git add .
+Agregar un archivo en especifico para commitear
+	$ git add archivo.ext
+Commitear
+	$ git commit -m "comentario"
+Subir cambios a repositorio remoto
+	$ git push
+Bajar cambios a repositorio local
+	$ git pull
+Crear rama local
+	$ git checkout -b nombre_rama
+Subir cambios de rama local recien creada a repositorio remoto
+	$ git push -u origin nombre_rama
